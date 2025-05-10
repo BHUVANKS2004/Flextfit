@@ -24,7 +24,7 @@
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: #ff5454;
   margin: 10% auto;
   padding: 20px;
   border-radius: 10px;
@@ -40,7 +40,7 @@
 }
 
 .class-hero-image h1{
-  color: #FFFFFF;
+  color: #341919;
   font-size: 60px;
   text-decoration: none;
   border-bottom: 4px solid #D9D9D9;
@@ -63,7 +63,7 @@
 }
 .class-hero-card {
   font-size: 28px;
-  color: #FFFFFF;
+  color: #f94545;
   width: 300px;
   height: 321px;
   border-radius: 50px;
@@ -91,7 +91,7 @@
 }
 .training-partner-part1 {
   position: absolute;
-  background-color: #FFFFFF; 
+  background-color: #000000; 
   width: 100%;
   height: 50%; 
   z-index: 1;

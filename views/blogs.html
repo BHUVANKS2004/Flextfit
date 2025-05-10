@@ -11,9 +11,9 @@
   <link href="../images/logo2.png" rel="touch-icon">
 
   <!-- Links Of External Css -->
-  <link rel="stylesheet" href="../style/desktop-view.css" type="text/css">
-  <link rel="stylesheet" href="../style/mobile-view.css" type="text/css">
-  <link rel="stylesheet" href="../style/blogs.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/desktop-view.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/mobile-view.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/blogs.css" type="text/css">
   
 </head>
 <body>
@@ -23,14 +23,14 @@
       <section class="navigation">
         <div class="nav-container">
           <div class="brand">
-            <a href="#"><img src="../images/logo2.png" alt="Fitness Star Gym Logo"></a>
+            <a href="#"><img src="../assets/images/logo2.png" alt="Flexfit Logo"></a>
           </div>
           <nav>
             <div class="nav-mobile"><a id="navbar-toggle" href="#!" aria-label="Toggle navigation"><span></span></a>
             </div>
             <ul class="nav-list">
               <li>
-                <a href="../index.html">Home</a>
+                <a href="./index.html">Home</a>
               </li>
               <li> 
                 <a href="class.html">Classes</a>
@@ -52,54 +52,14 @@
 
   
   <!-- Register Form -->
-  <form>
-    <div id="registerForm">
-      <h2>SUBSCRIPTION PLAN</h2>
-      <label for="fullname">Full Name:</label>
-      <input class="form-input" type="text" name="fullname" id="fullname" placeholder="📛 Enter Your Name" required />
-
-      <label for="email">Email:</label>
-      <input class="form-input" type="email" name="email" id="email" placeholder="📧 xxxxx@gmail.com" required />
-
-      <label for="mobile">Mobile Number:</label>
-      <input class="form-input" type="text" name="mobile" id="mobile" placeholder="📲 xxxxxxxxxx" required />
-
-      <legend>Duration:</legend>
-      <label class="duration">
-        <input type="radio" name="duration" value="monthly" /> Monthly
-        <input type="radio" name="duration" value="yearly" style="margin-left: 22px;"/> Yearly
-      </label>
-
-      <legend>Mode Of Payment:</legend>
-      <label class="payment">
-        <input type="radio" name="payment" value="cash" /> Cash
-        <input type="radio" name="payment" value="online" style="margin-left: 45px;" /> Online
-      </label>
-
-      <legend class="personal-training">Personal Training: <b>*free with yearly plan</b></legend>
-      <label class="training">
-        <input type="radio" name="personal-training" value="required" /> Required
-      <br>
-        <input type="radio" name="personal-training" value="not-required" /> Not required
-      </label>
-      
-      <label for="sign-me" class="sign-me">
-      <input type="checkbox" name="sign-me" value="sign-me" checked> 
-      I accept all terms and conditions provided in this form.
-      </label>
-      
-      <button onclick="submitForm()">Submit</button>
-      <button onclick="closeRegisterForm()">Close</button>
-    </div>
-  </form>
-
+  
 
   <!--Html Code Blog Section Begins Here-->
   <div class="blog-section">
     <div class="blog-background1">
       <div class="blog-content1">
         <div class="blog-image1">
-          <img src="../images/dylan-gillis.jpeg" alt="Image Of Yoga">
+          <img src="../assets/images/dylan-gillis.jpeg" alt="Image Of Yoga">
         </div>
         <div class="blog-text1">
           <b>Unlocking Inner Radiance Through Yoga at FLEXFIT
@@ -140,7 +100,7 @@
         </div>
 
         <div class="blog-image3">
-          <img src="../images/pexels-bamboo.jpeg" alt="Image Of Exercise">
+          <img src="../assets/images/pexels-bamboo.jpeg" alt="Image Of Exercise">
         </div>
       </div>
     </div>
@@ -204,7 +164,8 @@
   
   <!-- Links Of External Js -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../script/index.js"></script> 
+  <script src="../public/js/index.js"></script> 
+
   <script src="https://kit.fontawesome.com/8a4fbb7cf2.js" crossorigin="anonymous"></script>
 </body>
 </html>
